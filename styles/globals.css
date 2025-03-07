@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-menu-item {
+   @apply bg-inherit active:font-bold
+}
+
+.ant-input{
+    @apply font-default !important
+}
+
+table {
+    @apply font-default 
+}
+
+.ant-btn-primary{
+    @apply font-default bg-light-blue
+}
+
+.ant-btn-dangerous{
+    
+}
+
+.ant-table-row:first-child{
+    @apply ps-4 !important
+}
