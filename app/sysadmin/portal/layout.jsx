@@ -75,7 +75,7 @@ const NavMenuLayout = ({ children }) => {
                   icon: <FaUniversity size={20} className=" fill-dark-blue" />,
                   label: (
                     <Link
-                      href={"universities"}
+                      href={"licenses"}
                       className="font-default fill-dark-blue"
                     >
                       License

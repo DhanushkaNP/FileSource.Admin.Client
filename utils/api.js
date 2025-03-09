@@ -20,7 +20,6 @@ const api = {
     return response.data;
   },
   post: async (url, data, token = null) => {
-    console.log(`test ${url} ${JSON.stringify(data)} ${token}`);
     const config = token
       ? { headers: { Authorization: `Bearer ${token}` } }
       : {};
